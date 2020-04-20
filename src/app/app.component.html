@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <td>Counter :- </td>
+    <td>
+      <input [(ngModel)]="countValue" type="text"/>
+      {{countValue}}
+    </td>
+  </tr>
+
+  <tr>
+    <td><button (click)="IncreaseCounter()">Add</button></td>
+    <td><button (click)="ResetCounter()">Clear</button></td>
+  </tr>
+</table>
